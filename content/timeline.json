@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2023-11-16",
+    "title": "ACL Festival 2023",
+    "details": "Family trip to ACL in Austin; bands included Portugal. The Man, Alanis Morissette, Foo Fighters, Hozier, and more.",
+    "href": "/acl-festival-2023",
+    "tags": ["family", "music", "austin"]
+  },
+  {
+    "date": "2023-11-10",
+    "title": "Terp Tailgate",
+    "details": "Visit back to University of Maryland to tailgate and watch the football game.",
+    "href": "",
+    "tags": ["travel", "maryland", "football"]
+  }
+]

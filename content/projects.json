@@ -1,0 +1,8 @@
+[
+  {
+    "name": "temadison.com",
+    "summary": "Personal website rebuilt as a Next.js application.",
+    "tech": ["Next.js", "TypeScript", "Tailwind"],
+    "href": ""
+  }
+]
