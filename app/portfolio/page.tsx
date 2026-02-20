@@ -144,7 +144,7 @@ const experiences: Experience[] = [
 
 export default function PortfolioPage() {
     return (
-        <div className="space-y-12">
+        <div className="space-y-12 rounded-3xl bg-[rgb(225,235,255)] p-6 sm:p-8">
             <section className="space-y-4">
                 <h1 className="text-3xl font-semibold">My Work</h1>
                 <p className="text-black/75">
