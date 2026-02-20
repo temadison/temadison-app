@@ -186,6 +186,10 @@ export default function HomePage() {
                             >
                                 Contact form
                             </Link>
+                            <p className="text-xs font-semibold text-red-600">
+                                Disclaimer: this form is not operational. It was only a placeholder
+                                and will not send any messages.
+                            </p>
                         </div>
                     </div>
                 </section>
