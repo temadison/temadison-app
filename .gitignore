@@ -24,6 +24,12 @@
 .DS_Store
 *.pem
 
+# intellij
+.idea/
+*.iml
+*.ipr
+*.iws
+
 # debug
 npm-debug.log*
 yarn-debug.log*

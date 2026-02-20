@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getPosts } from "@/lib/posts";
+import {getPosts} from "@/lib/posts";
 
 const family = [
     {
@@ -73,7 +73,8 @@ export default function HomePage() {
                     </div>
                 </section>
 
-                <section className="grid gap-8 rounded-2xl bg-[rgb(214,206,230)] p-6 md:grid-cols-[1fr_1fr] md:items-center">
+                <section
+                    className="grid gap-8 rounded-2xl bg-[rgb(214,206,230)] p-6 md:grid-cols-[1fr_1fr] md:items-center">
                     <div className="space-y-3">
                         <h2 className="text-2xl font-semibold">Me, lately</h2>
                         <p className="text-black/75">
@@ -97,8 +98,8 @@ export default function HomePage() {
                             <Link className="underline" href="/blog">
                                 Latest stories
                             </Link>
-                            <Link className="underline" href="/contact">
-                                Contact
+                            <Link className="underline" href="/links">
+                                My links
                             </Link>
                         </div>
                     </div>
