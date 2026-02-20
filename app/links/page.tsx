@@ -150,11 +150,11 @@ export default function LinksPage() {
             <div className="space-y-8">
                 {groups.map((group) => (
                     <section key={group.title} className="space-y-4">
-                        <div className="flex items-center gap-3">
+                        <div className="flex justify-center">
                             <img
                                 src={group.icon}
                                 alt={`${group.title} category`}
-                                className={`h-10 w-24 rounded-md border border-black/10 bg-white ${group.iconClass}`}
+                                className={`h-20 w-44 rounded-md border border-black/10 bg-white ${group.iconClass}`}
                             />
                         </div>
                         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
