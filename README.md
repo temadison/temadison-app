@@ -16,6 +16,18 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+### Host and Port
+
+By default, Next.js runs on `localhost:3000`. You can override these when starting the dev server:
+
+```bash
+# custom port
+PORT=4000 npm run dev
+
+# bind to all interfaces (useful for LAN access)
+HOSTNAME=0.0.0.0 npm run dev
+```
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
