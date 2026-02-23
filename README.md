@@ -32,6 +32,13 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Deployment
+
+This app deploys cleanly to Vercel with the default Next.js settings. For custom domains
+like `temadison.com`, add the domain in Vercel and point DNS to the values Vercel provides.
+Vercel occasionally updates recommended DNS targets, so follow the latest values shown in
+the Vercel Domains page.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
