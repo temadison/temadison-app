@@ -8,6 +8,7 @@ const links = [
     { href: "/timeline", label: "Timeline" },
     { href: "/blog", label: "Blog" },
     { href: "/portfolio", label: "Portfolio" },
+    { href: "/work", label: "Work" },
     { href: "/contact", label: "Contact" },
 ];
 
