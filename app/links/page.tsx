@@ -1,4 +1,18 @@
-const groups = [
+type LinkItem = {
+    label: string;
+    href: string;
+    icon?: string;
+};
+
+type LinkGroup = {
+    title: string;
+    icon: string;
+    hue: number;
+    iconClass: string;
+    links: LinkItem[];
+};
+
+const groups: LinkGroup[] = [
     {
         title: "Google",
         icon: "/images/links/google_logo.png",
