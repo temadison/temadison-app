@@ -2,7 +2,7 @@ export default function ContactPage() {
     const linkedinUrl = "https://www.linkedin.com/in/your-handle";
 
     return (
-        <section className="space-y-8">
+        <section className="space-y-8 rounded-3xl bg-[rgb(225,235,255)] p-6 sm:p-8">
             <div className="space-y-2">
                 <h1 className="text-2xl font-semibold">Contact</h1>
                 <p className="text-black/70">

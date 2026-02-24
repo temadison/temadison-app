@@ -33,9 +33,9 @@ export default function HomePage() {
     const posts = getPosts().slice(0, 3);
 
     return (
-        <div className="-mx-4 bg-[rgb(220,200,214)] px-4 py-10">
+        <div className="-mx-4 bg-[rgb(225,235,255)] px-4 py-10">
             <div className="space-y-16">
-                <section className="rounded-2xl bg-[rgb(214,206,230)] p-6 sm:p-10">
+                <section className="rounded-2xl bg-[rgb(225,235,255)] p-6 sm:p-10">
                     <div className="grid gap-8 md:grid-cols-[1.1fr_0.9fr] md:items-center">
                         <div className="space-y-4">
                             <p className="text-sm uppercase tracking-[0.2em] text-black/60">
@@ -74,7 +74,7 @@ export default function HomePage() {
                 </section>
 
                 <section
-                    className="grid gap-8 rounded-2xl bg-[rgb(214,206,230)] p-6 md:grid-cols-[1fr_1fr] md:items-center">
+                    className="grid gap-8 rounded-2xl bg-[rgb(225,235,255)] p-6 md:grid-cols-[1fr_1fr] md:items-center">
                     <div className="space-y-3">
                         <h2 className="text-2xl font-semibold">Me, lately</h2>
                         <p className="text-black/75">
@@ -105,7 +105,7 @@ export default function HomePage() {
                     </div>
                 </section>
 
-                <section className="space-y-6 rounded-2xl bg-[rgb(214,206,230)] p-6">
+                <section className="space-y-6 rounded-2xl bg-[rgb(225,235,255)] p-6">
                     <div className="flex items-end justify-between gap-4">
                         <h2 className="text-2xl font-semibold">My People</h2>
                         <Link className="text-sm underline" href="/portfolio">
@@ -134,7 +134,7 @@ export default function HomePage() {
                     </div>
                 </section>
 
-                <section className="space-y-6 rounded-2xl bg-[rgb(214,206,230)] p-6">
+                <section className="space-y-6 rounded-2xl bg-[rgb(225,235,255)] p-6">
                     <div className="flex items-end justify-between gap-4">
                         <h2 className="text-2xl font-semibold">Latest blog posts</h2>
                         <Link className="text-sm underline" href="/blog">
@@ -164,7 +164,7 @@ export default function HomePage() {
                     </div>
                 </section>
 
-                <section className="rounded-2xl border border-black/10 bg-[rgb(214,206,230)] p-6 sm:p-8">
+                <section className="rounded-2xl border border-black/10 bg-[rgb(225,235,255)] p-6 sm:p-8">
                     <div className="grid gap-6 md:grid-cols-[1.2fr_0.8fr] md:items-center">
                         <div className="space-y-3">
                             <h2 className="text-2xl font-semibold">Contact</h2>

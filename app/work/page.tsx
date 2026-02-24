@@ -159,6 +159,15 @@ export default function WorkPage() {
                     in end-to-end web application development and a deep understanding of
                     agile methodologies and full life-cycle software development.
                 </p>
+                <div className="rounded-2xl border border-black/10 bg-[rgb(140,162,222)] px-4 py-3">
+                    <p className="text-sm font-semibold text-red-100">
+                        Want to see implementation-focused examples?{" "}
+                        <a className="underline text-red-100" href="/demos">
+                            Visit Demos
+                        </a>{" "}
+                        for AI-assisted build samples, architecture notes, and live prototypes.
+                    </p>
+                </div>
             </section>
 
             <section className="grid gap-4 md:grid-cols-3">
